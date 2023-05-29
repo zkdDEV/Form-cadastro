@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Cadastro</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee&family=Dosis&family=Foldit&family=Oswald&family=Prompt:wght@400;800&family=Roboto:wght@400;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h1>Fomulário de Cadastro</h1>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div>
+                    <label for="numeroCPF">CPF:</label>
+                    <input type="tel" id="numeroCPF" name="numeroCPF">
+                </div>
+                <div>
+                    <label for="numeroCEP">CEP:</label>
+                    <input type="tel" id="numeroCEP" name="numeroCEP">
+                </div>
+                <div>
+                    <label for="nomeCidade">Cidade:</label>
+                    <input type="text" id="nomeCidade" name="nomeCidade">
+                </div>
+                <div>
+                    <label for="nomeBairro">Bairro:</label>
+                    <input type="text" id="nomeBairro" name="nomeBairro">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+        <!--Biblioteca jQuery-->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <!--Plugin que faz máscaras-->
+        <script src="./Plugins/jquery.mask.min.js"></script>
+        <!--Plugin que faz validações-->
+        <script src="./Plugins/jquery.validate.min.js"></script>
+        <!--Faz o plugin de validações dar respostas em português-->
+        <script src="./Plugins/messages_pt_BR.min.js"></script>
+        <!--Script para o JavaScript-->
+        <script src="./main.js"></script>
+    </body>
+</html>

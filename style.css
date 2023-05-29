@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #b5b5b5;
+}
+.container
+{
+    max-width: 650px;
+    width: 100%;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    -webkit-line-clamp: 4;
+    background-color: #E7E7E7;
+}
+form h1,
+form div label
+{
+    text-align: center;
+    font-family: 'Bungee';
+    font-weight: 400;
+}
+
+form div input,
+form div textarea,
+form button
+{
+    font-size: 18px;
+    padding: 8px;
+    font-family: 'Roboto';
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 60%;
+    margin: 0 20%;
+}
+form div
+{
+    display: flex;
+    flex-direction: column;
+}
+form div textarea
+{
+    resize: none;
+}
+form div button
+{
+    margin: 10px 20%;
+    font-size: 20px;
+    font-family: 'Bungee';
+    background-color: rgb(0, 180, 0);
+}
+form div button:hover
+{
+    background-color: rgba(0, 180, 0, 0.7);
+}
